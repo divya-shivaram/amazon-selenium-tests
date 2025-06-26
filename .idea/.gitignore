@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Ignore a file
+secret-config.json
+
+# Ignore a folder
+.idea/
+target/
+logs/
+test-output/
+
+# Ignore all `.log` files
+*.log
+
+# Ignore IntelliJ files
+*.iml
+
