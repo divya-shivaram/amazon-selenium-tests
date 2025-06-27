@@ -9,7 +9,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import pages.HeaderPage;
+import pages.LoginPage;
 import utils.ExtentReportManager;
+import utils.JsonCredentialsReader;
 import utils.Log;
 import utils.ScreenshotUtils;
 
@@ -37,6 +39,9 @@ public class BaseTest {
     @Parameters("browser")
     public void setUp(@Optional("chrome") String browser, Method method) {
         WebDriver webDriver;
+        JsonCredentialsReader reader = new JsonCredentialsReader();
+        String username = reader.getUsername();
+        String password = reader.getPassword();
 
         switch (browser.toLowerCase()) {
             case "firefox":
@@ -58,6 +63,14 @@ public class BaseTest {
         Log.setExtentTest(test);
 
         Log.info("Test started with browser: " + browser);
+
+        LoginPage loginPage = new LoginPage(getDriver());
+
+        loginPage.clickSignIn();
+        loginPage.enterEmail(username);
+        loginPage.clickContinue();
+        loginPage.enterPassword(password);
+        loginPage.clickLogin();
     }
 
     @AfterMethod
