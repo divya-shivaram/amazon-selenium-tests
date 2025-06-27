@@ -60,3 +60,350 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [18fd95b0df502c6414d6e24c49ea6e00, findElement {using=xpath, value=//span[text()='Sign Out']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59602/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 18fd95b0df502c6414d6e24c49ea6e00
+2025-06-26 14:21:54 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:21:54 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:21:56 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:21:59 INFO  Log:27 - Searched for product: iPhone
+2025-06-26 14:22:02 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-26 14:22:02 INFO  Log:27 - Product not found in results: iPhone
+2025-06-26 14:22:02 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76c5839fd2edf522196ce627cd8245dd, findElement {value=//span[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59963/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76c5839fd2edf522196ce627cd8245dd
+2025-06-26 14:26:20 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:26:20 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:26:21 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:26:26 INFO  Log:27 - Searched for product: iPhone
+2025-06-26 14:26:26 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-26 14:26:26 INFO  Log:27 - Product not found in results: iPhone
+2025-06-26 14:26:26 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2509eb6f6f7494f8d954498a46ce04e8, findElement {using=xpath, value=//span[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60057/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2509eb6f6f7494f8d954498a46ce04e8
+2025-06-26 14:31:38 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:31:38 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:31:39 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:31:39 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:31:40 INFO  Log:27 - Enter Password
+2025-06-26 14:31:40 INFO  Log:27 - Clicking Login button
+2025-06-26 14:31:40 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:31:42 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:31:50 INFO  Log:27 - Searched for product: iPhone
+2025-06-26 14:31:50 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-26 14:31:50 INFO  Log:27 - Product not found in results: iPhone
+2025-06-26 14:31:50 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b346039a3f6919923539872df9d40c7, findElement {using=xpath, value=//span[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60166/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b346039a3f6919923539872df9d40c7
+2025-06-26 14:32:36 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:32:36 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:32:36 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:32:36 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:32:37 INFO  Log:27 - Enter Password
+2025-06-26 14:32:37 INFO  Log:27 - Clicking Login button
+2025-06-26 14:32:37 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:32:39 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:32:45 INFO  Log:27 - Searched for product: iPhone
+2025-06-26 14:32:47 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-26 14:32:47 INFO  Log:27 - Product not found in results: iPhone
+2025-06-26 14:32:47 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c32c23830e988e83a07b74c8264bceb4, findElement {value=//span[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60274}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60274/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c32c23830e988e83a07b74c8264bceb4
+2025-06-26 14:35:14 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:35:14 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:35:15 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:35:15 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:35:18 INFO  Log:27 - Enter Password
+2025-06-26 14:35:18 INFO  Log:27 - Clicking Login button
+2025-06-26 14:35:18 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:35:32 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:35:35 INFO  Log:27 - Searched for product: laptop
+2025-06-26 14:35:35 INFO  Log:27 - Search results displayed: true (Count: 22)
+2025-06-26 14:35:35 INFO  Log:27 - Product not found in results: laptop
+2025-06-26 14:35:36 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2772572fb803d83a250d242b85d1ea7c, findElement {value=//span[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2772572fb803d83a250d242b85d1ea7c
+2025-06-26 14:37:30 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:37:30 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:37:31 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:37:31 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:37:32 INFO  Log:27 - Enter Password
+2025-06-26 14:37:32 INFO  Log:27 - Clicking Login button
+2025-06-26 14:37:32 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:37:34 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:37:37 INFO  Log:27 - Searched for product: laptop
+2025-06-26 14:37:39 INFO  Log:27 - Search results displayed: true (Count: 22)
+2025-06-26 14:37:39 INFO  Log:27 - Product not found in results: laptop
+2025-06-26 14:37:39 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e14f505e416e521ff4add3cd7214069, findElement {value=//span[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60477/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e14f505e416e521ff4add3cd7214069
+2025-06-26 14:42:35 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:42:35 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:42:35 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:42:35 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:42:36 INFO  Log:27 - Enter Password
+2025-06-26 14:42:36 INFO  Log:27 - Clicking Login button
+2025-06-26 14:42:36 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:42:41 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:42:43 INFO  Log:27 - Searched for product: laptop
+2025-06-26 14:42:43 INFO  Log:27 - Search results displayed: true (Count: 22)
+2025-06-26 14:42:44 INFO  Log:27 - Product found in results: laptop
+2025-06-26 14:42:44 INFO  Log:27 - Total search results count: 22
+2025-06-26 14:42:44 INFO  Log:27 - Laptop search test passed
+2025-06-26 14:42:44 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bca64d23fb199570ea6e5bfce54af88, findElement {value=//span[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61253/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bca64d23fb199570ea6e5bfce54af88
+2025-06-26 14:43:12 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:43:12 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:43:13 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:43:13 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:43:14 INFO  Log:27 - Enter Password
+2025-06-26 14:43:14 INFO  Log:27 - Clicking Login button
+2025-06-26 14:43:14 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:43:16 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:43:21 INFO  Log:27 - Searched for product: iPhone
+2025-06-26 14:43:21 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-26 14:43:21 INFO  Log:27 - Product found in results: iPhone
+2025-06-26 14:43:21 INFO  Log:27 - Total search results count: 16
+2025-06-26 14:43:21 INFO  Log:27 - First product title: 1-16 of 265 results for
+2025-06-26 14:43:21 INFO  Log:27 - iPhone search test passed
+2025-06-26 14:43:21 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b396d3ff7a46d1b6c040182aa303b22b, findElement {using=xpath, value=//span[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61513/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b396d3ff7a46d1b6c040182aa303b22b
+2025-06-26 14:43:24 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:43:24 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:43:25 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:43:25 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:43:25 INFO  Log:27 - Enter Password
+2025-06-26 14:44:01 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:44:01 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:44:02 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:44:02 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:44:02 INFO  Log:27 - Enter Password
+2025-06-26 14:44:03 INFO  Log:27 - Clicking Login button
+2025-06-26 14:44:03 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:44:04 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:44:15 ERROR Log:43 - Error while searching for product: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: twotabsearchtextbox' (tried for 10 second(s) with 500 milliseconds interval)
+2025-06-26 14:44:15 ERROR Log:43 - iPhone search test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: twotabsearchtextbox' (tried for 10 second(s) with 500 milliseconds interval)
+2025-06-26 14:44:15 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [065aae6e2cf773a0fb2d2a7bef0ffd9e, actions {actions=[org.openqa.selenium.interactions.Sequence@4339e0de]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61875/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 065aae6e2cf773a0fb2d2a7bef0ffd9e
+2025-06-26 14:44:20 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:44:20 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:44:22 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:44:22 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:44:23 INFO  Log:27 - Enter Password
+2025-06-26 14:44:24 INFO  Log:27 - Clicking Login button
+2025-06-26 14:44:24 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:44:27 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:44:33 INFO  Log:27 - Searched for product: laptop
+2025-06-26 14:44:33 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-26 14:44:33 INFO  Log:27 - Product found in results: laptop
+2025-06-26 14:44:33 INFO  Log:27 - Total search results count: 16
+2025-06-26 14:44:33 INFO  Log:27 - Laptop search test passed
+2025-06-26 14:44:33 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2765e239cd632b5173d82e29e9c06cd4, findElement {value=//span[text()='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62025/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2765e239cd632b5173d82e29e9c06cd4
+2025-06-26 14:44:36 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:44:36 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:44:37 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:44:38 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:44:38 INFO  Log:27 - Enter Password
+2025-06-26 14:44:38 INFO  Log:27 - Clicking Login button
+2025-06-26 14:44:39 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:44:40 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:44:50 ERROR Log:43 - Error while searching for product: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e177f6c4ff7df1648566b3b6a65aa3ff, findElement {value=twotabsearchtextbox, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62215/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e177f6c4ff7df1648566b3b6a65aa3ff
+2025-06-26 14:44:50 ERROR Log:43 - Invalid product search test failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e177f6c4ff7df1648566b3b6a65aa3ff, findElement {value=twotabsearchtextbox, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62215/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e177f6c4ff7df1648566b3b6a65aa3ff
+2025-06-26 14:44:50 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e177f6c4ff7df1648566b3b6a65aa3ff, actions {actions=[org.openqa.selenium.interactions.Sequence@32e652b6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62215/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e177f6c4ff7df1648566b3b6a65aa3ff
+2025-06-26 14:48:45 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:48:45 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:48:46 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:48:46 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:48:46 INFO  Log:27 - Enter Password
+2025-06-26 14:49:19 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:49:19 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:49:20 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:49:20 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:49:21 INFO  Log:27 - Enter Password
+2025-06-26 14:49:21 INFO  Log:27 - Clicking Login button
+2025-06-26 14:49:21 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:49:24 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:49:24 INFO  Log:27 - Searched for product: iPhone
+2025-06-26 14:49:25 INFO  Log:27 - Search results displayed: true (Count: 18)
+2025-06-26 14:49:26 INFO  Log:27 - Product found in results: iPhone
+2025-06-26 14:49:26 INFO  Log:27 - Total search results count: 18
+2025-06-26 14:49:26 INFO  Log:27 - First product title: 1-16 of over 6,000 results for
+2025-06-26 14:49:26 INFO  Log:27 - iPhone search test passed
+2025-06-26 14:49:27 INFO  Log:27 - Logged out successfully
+2025-06-26 14:49:34 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:49:34 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:49:35 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:49:35 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:49:37 INFO  Log:27 - Enter Password
+2025-06-26 14:49:37 INFO  Log:27 - Clicking Login button
+2025-06-26 14:49:37 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:49:44 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:49:54 INFO  Log:27 - Searched for product: laptop
+2025-06-26 14:49:56 INFO  Log:27 - Search results displayed: true (Count: 21)
+2025-06-26 14:49:56 INFO  Log:27 - Product found in results: laptop
+2025-06-26 14:49:56 INFO  Log:27 - Total search results count: 21
+2025-06-26 14:49:56 INFO  Log:27 - Laptop search test passed
+2025-06-26 14:49:56 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bb51d78a97be72653a654bba396e633, findElement {using=xpath, value=//span[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63194/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bb51d78a97be72653a654bba396e633
+2025-06-26 14:49:59 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:49:59 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:50:00 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:50:00 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:50:01 INFO  Log:27 - Enter Password
+2025-06-26 14:50:01 INFO  Log:27 - Clicking Login button
+2025-06-26 14:50:01 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:50:04 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:50:06 INFO  Log:27 - Searched for product: xyzinvalidproduct123
+2025-06-26 14:50:08 INFO  Log:27 - Search results displayed: true (Count: 1)
+2025-06-26 14:50:08 INFO  Log:27 - Invalid product search test completed
+2025-06-26 14:50:08 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4202d2b6b77fba4770d2a3eb58254c42, findElement {using=xpath, value=//span[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63297/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4202d2b6b77fba4770d2a3eb58254c42
+2025-06-26 14:51:34 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:51:34 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:51:35 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:51:35 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:51:35 INFO  Log:27 - Enter Password
+2025-06-26 14:51:35 INFO  Log:27 - Clicking Login button
+2025-06-26 14:51:35 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-26 14:51:38 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-26 14:51:48 ERROR Log:43 - Error while searching for product: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: twotabsearchtextbox' (tried for 10 second(s) with 500 milliseconds interval)
+2025-06-26 14:51:48 ERROR Log:43 - iPhone search test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: twotabsearchtextbox' (tried for 10 second(s) with 500 milliseconds interval)
+2025-06-26 14:51:49 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e70fc3fbda4862ed7bd461482af3c605, actions {actions=[org.openqa.selenium.interactions.Sequence@37d871c2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63507/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e70fc3fbda4862ed7bd461482af3c605
+2025-06-26 14:51:55 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:51:55 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:51:56 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:51:56 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:51:56 INFO  Log:27 - Enter Password
+2025-06-26 14:52:36 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:52:36 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:52:46 INFO  Log:27 - Test started with browser: chrome
+2025-06-26 14:52:46 INFO  Log:27 - Clicking SignIn button
+2025-06-26 14:52:47 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-26 14:52:47 INFO  Log:27 - Clicking Continue button
+2025-06-26 14:52:48 INFO  Log:27 - Enter Password
+2025-06-26 21:40:21 INFO  Log:27 - Clicking Login button
+2025-06-27 15:56:28 INFO  Log:27 - Test started with browser: chrome
+2025-06-27 15:56:28 INFO  Log:27 - Clicking SignIn button
+2025-06-27 15:56:29 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-06-27 15:56:29 INFO  Log:27 - Clicking Continue button
+2025-06-27 15:56:30 INFO  Log:27 - Enter Password
+2025-06-27 15:56:30 INFO  Log:27 - Clicking Login button
+2025-06-27 15:56:30 INFO  Log:27 - AmazonSearchPage initialized
+2025-06-27 15:56:31 INFO  Log:27 - Navigated to Amazon homepage
+2025-06-27 15:56:34 INFO  Log:27 - Searched for product: iPhone
+2025-06-27 15:56:36 INFO  Log:27 - Search results displayed: true (Count: 16)
+2025-06-27 15:56:36 INFO  Log:27 - Product found in results: iPhone
+2025-06-27 15:56:36 INFO  Log:27 - Total search results count: 16
+2025-06-27 15:56:36 INFO  Log:27 - First product title: 1-16 of 260 results for
+2025-06-27 15:56:36 INFO  Log:27 - iPhone search test passed
+2025-06-27 15:56:37 WARN  Log:35 - Logout skipped or failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign Out']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a932340c00d830ad7255b16387c4ee29, findElement {using=xpath, value=//span[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64182/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a932340c00d830ad7255b16387c4ee29
