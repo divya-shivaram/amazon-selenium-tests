@@ -9,6 +9,7 @@ public class LoginTest extends BaseTest {
     public void testAmazonTitle() {
         String title = getDriver().getTitle();
         assert title.contains("Amazon");
+        System.out.println("test");
     }
 
 //    @Test
