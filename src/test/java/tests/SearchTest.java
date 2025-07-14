@@ -92,6 +92,7 @@ public class SearchTest extends BaseTest {
 
         try {
             SearchPage searchPage = new SearchPage(getDriver());
+            searchPage.toString();
 
             test.log(Status.INFO, "Navigating to Amazon homepage");
             searchPage.navigateToAmazon();

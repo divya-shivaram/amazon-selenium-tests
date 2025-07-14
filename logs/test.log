@@ -407,3 +407,318 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [a932340c00d830ad7255b16387c4ee29, findElement {using=xpath, value=//span[text()='Sign Out']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64182/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: a932340c00d830ad7255b16387c4ee29
+2025-07-13 20:38:25 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:38:25 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:38:25 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:38:25 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:25 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:25 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:26 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:38:26 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:38:26 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:38:26 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:38:26 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:38:26 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:38:27 INFO  Log:27 - Enter Password
+2025-07-13 20:38:27 INFO  Log:27 - Enter Password
+2025-07-13 20:38:27 INFO  Log:27 - Enter Password
+2025-07-13 20:38:27 INFO  Log:27 - Clicking Login button
+2025-07-13 20:38:27 INFO  Log:27 - Clicking Login button
+2025-07-13 20:38:27 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f0b2d6912ececf3fb6fc1d5d9f1ce02, actions {actions=[org.openqa.selenium.interactions.Sequence@1069028b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54056/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f0b2d6912ececf3fb6fc1d5d9f1ce02
+2025-07-13 20:38:27 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82231d8e787086f2d7e1937ca07311fa, actions {actions=[org.openqa.selenium.interactions.Sequence@2dc6a6f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54054/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82231d8e787086f2d7e1937ca07311fa
+2025-07-13 20:38:27 INFO  Log:27 - Clicking Login button
+2025-07-13 20:38:28 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:28 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6f43fef781e6e8bb22acee4b05274a0, actions {actions=[org.openqa.selenium.interactions.Sequence@3932b6d0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54055}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54055/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6f43fef781e6e8bb22acee4b05274a0
+2025-07-13 20:38:32 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:38:32 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:33 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:38:33 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:33 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:38:33 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:38:33 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:38:33 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:38:33 INFO  Log:27 - Enter Password
+2025-07-13 20:38:33 INFO  Log:27 - Enter Password
+2025-07-13 20:38:34 INFO  Log:27 - Clicking Login button
+2025-07-13 20:38:34 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [352454ca5085804bd16ee1015d676cc1, actions {actions=[org.openqa.selenium.interactions.Sequence@1f4df1a7]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54260/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 352454ca5085804bd16ee1015d676cc1
+2025-07-13 20:38:38 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:38:38 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:38:39 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:38:39 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:38:39 INFO  Log:27 - Enter Password
+2025-07-13 20:57:13 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:13 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:13 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:13 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:14 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:14 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:14 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:14 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:14 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:14 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:14 INFO  Log:27 - Enter Password
+2025-07-13 20:57:14 INFO  Log:27 - Enter Password
+2025-07-13 20:57:14 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:14 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:15 INFO  Log:27 - Enter Password
+2025-07-13 20:57:15 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:15 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:15 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfa84eccaf35c5c0e77c336cf93880bf, actions {actions=[org.openqa.selenium.interactions.Sequence@5b8d0228]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54473}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54473/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfa84eccaf35c5c0e77c336cf93880bf
+2025-07-13 20:57:15 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:15 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e800da94f7cb87ec9c903353ebbabe8f, actions {actions=[org.openqa.selenium.interactions.Sequence@1121e03]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54471/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e800da94f7cb87ec9c903353ebbabe8f
+2025-07-13 20:57:16 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:16 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b669e0acd81b8ad1f00994fa424d34, actions {actions=[org.openqa.selenium.interactions.Sequence@7f7cea6e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54472/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b669e0acd81b8ad1f00994fa424d34
+2025-07-13 20:57:18 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:18 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:19 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:19 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:19 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:19 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:19 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:19 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:19 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:19 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:20 INFO  Log:27 - Enter Password
+2025-07-13 20:57:20 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:20 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:20 INFO  Log:27 - Enter Password
+2025-07-13 20:57:20 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:20 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c2e6ce567180c243239bb924fdde23e, actions {actions=[org.openqa.selenium.interactions.Sequence@562930a6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54604}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54604/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2e6ce567180c243239bb924fdde23e
+2025-07-13 20:57:20 INFO  Log:27 - Enter Password
+2025-07-13 20:57:20 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:20 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:20 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6d2653abe8b9e34f9c3d0b64c18fe62, actions {actions=[org.openqa.selenium.interactions.Sequence@6d943a7b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54605/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6d2653abe8b9e34f9c3d0b64c18fe62
+2025-07-13 20:57:21 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:21 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2d72aaf3f787d63b77fd2722a342906, actions {actions=[org.openqa.selenium.interactions.Sequence@5cab77f1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54603/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d72aaf3f787d63b77fd2722a342906
+2025-07-13 20:57:22 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:22 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:23 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:23 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:23 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:23 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:24 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:24 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:24 INFO  Log:27 - Enter Password
+2025-07-13 20:57:24 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:24 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:25 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:25 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:25 INFO  Log:27 - Enter Password
+2025-07-13 20:57:25 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:25 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:25 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d9bf66b047c7d9cd4ea87f9ca65f961, actions {actions=[org.openqa.selenium.interactions.Sequence@23a887f9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54718/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d9bf66b047c7d9cd4ea87f9ca65f961
+2025-07-13 20:57:25 INFO  Log:27 - Enter Password
+2025-07-13 20:57:25 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:25 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c7aaeb77c5cc9567823944ade839329, actions {actions=[org.openqa.selenium.interactions.Sequence@1af83d4d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54747/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c7aaeb77c5cc9567823944ade839329
+2025-07-13 20:57:26 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:26 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:28 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:28 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:29 INFO  Log:27 - Enter Password
+2025-07-13 20:57:29 INFO  Log:27 - Clicking Login button
+2025-07-13 20:57:29 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [877e94cd847f36d58dad6087995e5799, actions {actions=[org.openqa.selenium.interactions.Sequence@2736874c]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54863/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 877e94cd847f36d58dad6087995e5799
+2025-07-13 20:57:31 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 20:57:31 INFO  Log:27 - Clicking SignIn button
+2025-07-13 20:57:32 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 20:57:32 INFO  Log:27 - Clicking Continue button
+2025-07-13 20:57:32 INFO  Log:27 - Enter Password
+2025-07-13 21:01:55 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:01:55 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:01:55 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:01:55 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:01:55 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:01:55 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:01:56 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:01:56 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:01:56 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:01:56 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:01:56 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:01:56 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:01:57 INFO  Log:27 - Enter Password
+2025-07-13 21:01:57 INFO  Log:27 - Enter Password
+2025-07-13 21:01:57 INFO  Log:27 - Enter Password
+2025-07-13 21:02:43 INFO  Log:27 - Clicking Login button
+2025-07-13 21:05:57 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:05:57 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:05:57 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:05:57 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:05:58 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:05:58 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:05:58 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:05:58 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:05:59 INFO  Log:27 - Enter Password
+2025-07-13 21:05:59 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:05:59 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:05:59 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:05:59 INFO  Log:27 - Enter Password
+2025-07-13 21:05:59 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:06:00 INFO  Log:27 - Clicking Login button
+2025-07-13 21:06:00 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85beb1540dfe20ed9dc23f12010bb2fc, actions {actions=[org.openqa.selenium.interactions.Sequence@30c0d17c]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55226}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55226/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85beb1540dfe20ed9dc23f12010bb2fc
+2025-07-13 21:06:00 INFO  Log:27 - Enter Password
+2025-07-13 21:06:00 INFO  Log:27 - Clicking Login button
+2025-07-13 21:06:00 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:00 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d27abc7cd4bbdc85941418a796cf0c6, actions {actions=[org.openqa.selenium.interactions.Sequence@2bf46f91]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55227/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d27abc7cd4bbdc85941418a796cf0c6
+2025-07-13 21:06:02 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:06:02 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:02 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:06:02 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:03 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:06:03 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:06:03 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:06:03 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:06:03 INFO  Log:27 - Enter Password
+2025-07-13 21:06:04 INFO  Log:27 - Enter Password
+2025-07-13 21:06:04 INFO  Log:27 - Clicking Login button
+2025-07-13 21:06:04 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e58f4cd7cd3b5355cf0345c9f817a1e4, actions {actions=[org.openqa.selenium.interactions.Sequence@b90f1a0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55362/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e58f4cd7cd3b5355cf0345c9f817a1e4
+2025-07-13 21:06:04 INFO  Log:27 - Clicking Login button
+2025-07-13 21:06:04 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:04 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [852b2a2689b54d1189858fefdfa6b516, actions {actions=[org.openqa.selenium.interactions.Sequence@1e3a7533]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55365/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 852b2a2689b54d1189858fefdfa6b516
+2025-07-13 21:06:06 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:06:07 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:07 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:06:07 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:07 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:06:07 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:06:07 INFO  Log:27 - Enter Password
+2025-07-13 21:06:08 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:06:08 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:06:08 INFO  Log:27 - Enter Password
+2025-07-13 21:06:09 INFO  Log:27 - Clicking Login button
+2025-07-13 21:06:09 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:09 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40f8d5508c9b6231ee3e747b1223d0b7, actions {actions=[org.openqa.selenium.interactions.Sequence@a376f36]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55447/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40f8d5508c9b6231ee3e747b1223d0b7
+2025-07-13 21:06:11 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:06:11 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:06:12 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:06:12 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:06:13 INFO  Log:27 - Enter Password
+2025-07-13 21:06:13 INFO  Log:27 - Clicking Login button
+2025-07-13 21:06:13 WARN  Log:35 - Logout skipped or failed: java.lang.reflect.InvocationTargetException
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2edc654288c32bfd6f7b07889fc03964, actions {actions=[org.openqa.selenium.interactions.Sequence@856f955]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/s7/6gh3y20n06d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2edc654288c32bfd6f7b07889fc03964
+2025-07-13 21:11:13 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:11:13 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:11:13 INFO  Log:27 - Test started with browser: chrome
+2025-07-13 21:11:13 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:11:13 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:11:13 INFO  Log:27 - Clicking SignIn button
+2025-07-13 21:11:15 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:11:15 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:11:15 INFO  Log:27 - Enter Password
+2025-07-13 21:11:15 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:11:15 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:11:15 INFO  Log:27 - Enter Password
+2025-07-13 21:11:16 INFO  Log:27 - Entering email: testing.email.selenium@gmail.com
+2025-07-13 21:11:16 INFO  Log:27 - Clicking Continue button
+2025-07-13 21:11:16 INFO  Log:27 - Enter Password

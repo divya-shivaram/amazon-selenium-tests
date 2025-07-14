@@ -10,20 +10,21 @@ import utils.Log;
 public class HeaderPage {
     private WebDriver driver;
 
-    // ✅ Constructor to initialize PageFactory elements
-    public HeaderPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
-    // ✅ WebElements using @FindBy
+    // private By signInMenu = By.id("nav-link-accountList");
+    // WebElements using @FindBy
     @FindBy(id = "nav-link-accountList")
     private WebElement accountMenu;
 
     @FindBy(xpath = "//span[text()='Sign Out']")
     private WebElement signOutLink;
 
-    // ✅ Logout method
+    // Constructor to initialize PageFactory elements
+    public HeaderPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    // Logout method
     public void logout() {
         try {
             new Actions(driver).moveToElement(accountMenu).perform();
